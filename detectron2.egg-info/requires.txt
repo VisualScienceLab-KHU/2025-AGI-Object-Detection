@@ -1,0 +1,31 @@
+termcolor>=1.1
+Pillow~=9.5
+yacs>=0.1.6
+tabulate
+cloudpickle
+matplotlib
+tqdm>4.29.0
+tensorboard
+fvcore<0.1.6,>=0.1.5
+iopath<0.1.9,>=0.1.7
+pycocotools>=2.0.2
+future
+pydot
+omegaconf>=2.1.0rc1
+hydra-core>=1.1.0rc1
+black==21.4b2
+
+[:python_version < "3.7"]
+dataclasses
+
+[all]
+shapely
+pygments>=2.2
+psutil
+panopticapi@ https://github.com/cocodataset/panopticapi/archive/master.zip
+
+[dev]
+flake8==3.8.1
+isort==4.3.21
+flake8-bugbear
+flake8-comprehensions
