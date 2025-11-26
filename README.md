@@ -175,19 +175,6 @@ flowchart LR
 
 ---
 
-## 인용 (Citation)
-본 레포/성과를 사용하실 경우, 다음을 인용해 주세요:
-```bibtex
-@software{khu_fs_cdod_2025_y1,
-  title       = {Few-shot Cross-domain Object Detection (Year-1, Kyung Hee University)},
-  author      = {KHU Research Team},
-  year        = {2025},
-  url         = {https://github.com/<org>/<repo>}
-}
-```
-
----
-
 ## 문의
 - 경희대학교 연구팀 (담당자/이메일 추후 업데이트)
 
@@ -195,3 +182,7 @@ flowchart LR
 
 ## 라이선스
 - **TBD** (기관 정책에 따라 MIT/BSD-3-Clause/Apache-2.0 등 결정하여 `LICENSE` 파일 추가)
+
+---
+
+본 연구는 CD-VITO를 참고하였음.
