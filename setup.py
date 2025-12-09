@@ -16,6 +16,7 @@ assert torch_ver >= [1, 6], "Requires PyTorch >= 1.6"
 
 import os
 
+
 def get_version():
     init_py_path = path.join(path.abspath(path.dirname(__file__)), "detectron2", "__init__.py")
     init_py = open(init_py_path, "r").readlines()
